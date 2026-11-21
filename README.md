@@ -17,4 +17,4 @@ python -m unittest discover -s tests -v
 - Dependência: `RelatorioTarefas` recebe um `QuadroTarefas` para calcular estatísticas.
 
 ## Observação sobre composição
- O quadro controla a inclusão e remoção das tarefas. Em uma aplicação real, a regra de exclusão do quadro e de suas tarefas deve ser mantida pela camada que controla o quadro.
+ O quadro controla a inclusão e remoção das tarefas. A regra de exclusão do quadro e de suas tarefas deve ser mantida pela camada que controla o quadro.
