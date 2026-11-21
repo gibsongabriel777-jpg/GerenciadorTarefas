@@ -5,10 +5,6 @@ Projeto acadêmico em Python com foco em Programação Orientada a Objetos.
 Na pasta raiz do projeto:
 python main.py
 
-## Executar os testes
-Na pasta raiz do projeto:
-python -m unittest discover -s tests -v
-
 ## Relações entre as classes
 - Herança: `TarefaComum` e `TarefaRecorrente` herdam de `Tarefa`.
 - Polimorfismo: as subclasses implementam `obter_tipo()` de formas diferentes.
